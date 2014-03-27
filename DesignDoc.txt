@@ -1,0 +1,44 @@
+PowerRogue Design
+
+v1
+Player character is of one class, SysAdmin. Stats include "concentration" e.g. health, "SkillSet" e.g. attack power, "Knowledge" which is experience, "Position" which is level (e.g. Junior, regular, senior, lead...).
+Player provides a name.
+Game has a title screen with colorful "PowerRogue" art.
+Goal is to ascend levels of the office building to reach the Tome of Productivity.
+Enemies get progressively more difficult. Set # of enemies per level.
+Enemies:
+- Spam lvl 1
+- Bug lvl 2
+- Virus lvl 3
+- Meeting lvl 4
+- Ambiguity lvl 5
+Can pick up "money" along the way. Enemies drop them.
+Granted "Knowledge" when enemy is defeated.
+Leveling up "Knowledge" increases SkillSet and Concentration.
+Maps are randomly generated "Rogue-Like"
+Stairways are point between levels. Cannot go back up stairs - stairway disappears.
+
+Controls:
+Arrow keys are all that's needed.
+'q' saves and quits the game.
+
+GameFlow:
+- Title Screen
+- Ask for name
+- Create level 1
+- Player reaches stairway
+- Create level 2
+...
+- Player reaches stairway on level 5
+- Game End Screen
+-- Shows all stats, money, congratulations
+
+Objects:
+- Current level Map
+- Game global info
+- Player
+- Enemies dictionary
+- Enemies on current level
+
+TODO:
+- Help screen (F1)
